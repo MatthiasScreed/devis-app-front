@@ -4,7 +4,7 @@ import {
     QUOTE_STATUS_COLORS,
     INVOICE_STATUS_LABELS,
     INVOICE_STATUS_COLORS,
-} from '../../utils/formatters'
+} from '../../utils/Formatters'
 
 interface BadgeProps {
     status: QuoteStatus | InvoiceStatus

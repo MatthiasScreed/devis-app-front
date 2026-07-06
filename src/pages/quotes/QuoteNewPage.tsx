@@ -13,7 +13,7 @@ import Button from '../../components/ui/Button'
 import Input from '../../components/ui/Input'
 import Select from '../../components/ui/Select'
 import Card from '../../components/ui/Card'
-import { today, addDays, formatPrice, calcLineTotal, calcTotals, UNITS, VAT_RATES } from '../../utils/formatters'
+import { today, addDays, formatPrice, calcLineTotal, calcTotals, UNITS, VAT_RATES } from '../../utils/Formatters'
 
 const lineSchema = z.object({
     description: z.string().min(1, 'Description requise'),

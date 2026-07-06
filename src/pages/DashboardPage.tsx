@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { useNavigate } from 'react-router-dom'
 import { TrendingUp, TrendingDown, FileText, Receipt, Users, Plus } from 'lucide-react'
-import api from '../api/client'
+import api from '../api/Client'
 import type { DashboardData } from '../types/models'
 import Header from '../components/layout/Header'
 import Button from '../components/ui/Button'
