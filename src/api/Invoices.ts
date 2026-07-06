@@ -1,4 +1,4 @@
-import api from './client'
+import api from './Client'
 import type { Invoice, PaginatedResponse } from '../types/models'
 
 export interface InvoicePayload {

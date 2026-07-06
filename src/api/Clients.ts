@@ -1,4 +1,4 @@
-import api from './client'
+import api from './Client'
 import type { Client, PaginatedResponse } from '../types/models'
 
 export interface ClientPayload {

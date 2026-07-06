@@ -8,8 +8,8 @@ import {
     LogOut,
     ChevronRight,
 } from 'lucide-react'
-import { useAuthStore } from '../../store/authStore'
-import { authApi } from '../../api/auth'
+import { useAuthStore } from '../../store/AuthStore'
+import { authApi } from '../../api/Auth'
 import toast from 'react-hot-toast'
 
 const navItems = [

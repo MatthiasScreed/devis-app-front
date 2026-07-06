@@ -3,14 +3,14 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { ArrowLeft, Send, Check, X, Copy, Receipt, Download, ExternalLink } from 'lucide-react'
 import toast from 'react-hot-toast'
-import { quotesApi } from '../../api/quotes'
+import { quotesApi } from '../../api/Quotes'
 import type { QuoteStatus } from '../../types/models'
 import Button from '../../components/ui/Button'
 import Badge from '../../components/ui/Badge'
 import Card from '../../components/ui/Card'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { formatPrice, formatDate } from '../../utils/formatters'
-import { useAuthStore } from '../../store/authStore'
+import { useAuthStore } from '../../store/AuthStore'
 
 export default function QuoteDetailPage() {
     const { id } = useParams<{ id: string }>()

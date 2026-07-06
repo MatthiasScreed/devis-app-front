@@ -6,8 +6,8 @@ import { z } from 'zod'
 import { FileText } from 'lucide-react'
 import toast from 'react-hot-toast'
 
-import { authApi } from '../../api/auth'
-import { useAuthStore } from '../../store/authStore'
+import { authApi } from '../../api/Auth'
+import { useAuthStore } from '../../store/AuthStore'
 import Input from '../../components/ui/Input'
 import Button from '../../components/ui/Button'
 
