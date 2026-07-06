@@ -8,7 +8,7 @@ import Button from '../components/ui/Button'
 import Card from '../components/ui/Card'
 import Badge from '../components/ui/Badge'
 import { PageSpinner } from '../components/ui/Spinner'
-import { formatPrice, formatDate } from '../utils/formatters'
+import { formatPrice, formatDate } from '../utils/Formatters'
 
 const fetchDashboard = async (): Promise<DashboardData> => {
     const res = await api.get<DashboardData>('/dashboard')

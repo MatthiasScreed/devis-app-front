@@ -9,7 +9,7 @@ import Button from '../../components/ui/Button'
 import Badge from '../../components/ui/Badge'
 import Card from '../../components/ui/Card'
 import { PageSpinner } from '../../components/ui/Spinner'
-import { formatPrice, formatDate } from '../../utils/formatters'
+import { formatPrice, formatDate } from '../../utils/Formatters'
 import { useAuthStore } from '../../store/AuthStore'
 
 export default function QuoteDetailPage() {

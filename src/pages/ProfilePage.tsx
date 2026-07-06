@@ -7,14 +7,14 @@ import { Upload, User } from 'lucide-react'
 import toast from 'react-hot-toast'
 import api from '../api/Client'
 import type { User as UserType } from '../types/models'
-import { useAuthStore } from '../store/authStore'
+import { useAuthStore } from '../store/AuthStore'
 import Header from '../components/layout/Header'
 import Button from '../components/ui/Button'
 import Input from '../components/ui/Input'
 import Select from '../components/ui/Select'
 import Card from '../components/ui/Card'
 import { PageSpinner } from '../components/ui/Spinner'
-import { VAT_RATES } from '../utils/formatters'
+import { VAT_RATES } from '../utils/Formatters'
 
 const schema = z.object({
     name: z.string().min(2, 'Nom requis'),

@@ -12,7 +12,7 @@ import Badge from '../../components/ui/Badge'
 import Card from '../../components/ui/Card'
 import EmptyState from '../../components/ui/EmptyState'
 import { PageSpinner } from '../../components/ui/Spinner'
-import { formatPrice, formatDate, QUOTE_STATUS_LABELS } from '../../utils/formatters'
+import { formatPrice, formatDate, QUOTE_STATUS_LABELS } from '../../utils/Formatters'
 
 const STATUS_FILTERS: { value: string; label: string }[] = [
     { value: '', label: 'Tous' },

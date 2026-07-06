@@ -12,7 +12,7 @@ import Card from '../../components/ui/Card'
 import Button from '../../components/ui/Button'
 import EmptyState from '../../components/ui/EmptyState'
 import { PageSpinner } from '../../components/ui/Spinner'
-import { formatPrice, formatDate, INVOICE_STATUS_LABELS } from '../../utils/formatters'
+import { formatPrice, formatDate, INVOICE_STATUS_LABELS } from '../../utils/Formatters'
 
 const STATUS_FILTERS = [
     { value: '', label: 'Toutes' },
